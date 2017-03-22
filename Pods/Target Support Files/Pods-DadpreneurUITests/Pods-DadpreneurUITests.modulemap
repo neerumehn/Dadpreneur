@@ -1,0 +1,6 @@
+framework module Pods_DadpreneurUITests {
+  umbrella header "Pods-DadpreneurUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EDD9A6C13967BA2CA850754 /* Pods_Dadpreneur.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD3C42F0D15CAB65F4115762 /* Pods_Dadpreneur.framework */; };
+		52E5299D1E8270E5001B1998 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E5299C1E8270E5001B1998 /* AppDelegate.swift */; };
+		52E5299F1E8270E5001B1998 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E5299E1E8270E5001B1998 /* HomeVC.swift */; };
+		52E529A21E8270E6001B1998 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E529A01E8270E6001B1998 /* Main.storyboard */; };
+		52E529A51E8270E6001B1998 /* Dadpreneur.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52E529A31E8270E6001B1998 /* Dadpreneur.xcdatamodeld */; };
+		52E529A71E8270E6001B1998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E529A61E8270E6001B1998 /* Assets.xcassets */; };
+		52E529AA1E8270E6001B1998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E529A81E8270E6001B1998 /* LaunchScreen.storyboard */; };
+		52E529B51E8270E6001B1998 /* DadpreneurTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E529B41E8270E6001B1998 /* DadpreneurTests.swift */; };
+		52E529C01E8270E6001B1998 /* DadpreneurUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E529BF1E8270E6001B1998 /* DadpreneurUITests.swift */; };
+		52E529CE1E827D38001B1998 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E529CD1E827D38001B1998 /* extension.swift */; };
+		5DB0EC1E1E58BE865CC4FC8D /* Pods_DadpreneurTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09EB3E79B98895BAFD884296 /* Pods_DadpreneurTests.framework */; };
+		EA65904C06BAE6612B58E7E1 /* Pods_DadpreneurUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA7EB9EAD7911B99B180805 /* Pods_DadpreneurUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52E529B11E8270E6001B1998 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52E529911E8270E5001B1998 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52E529981E8270E5001B1998;
+			remoteInfo = Dadpreneur;
+		};
+		52E529BC1E8270E6001B1998 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52E529911E8270E5001B1998 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52E529981E8270E5001B1998;
+			remoteInfo = Dadpreneur;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09AF9CE4282C7529B062DEE8 /* Pods-Dadpreneur.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dadpreneur.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dadpreneur/Pods-Dadpreneur.debug.xcconfig"; sourceTree = "<group>"; };
+		09EB3E79B98895BAFD884296 /* Pods_DadpreneurTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DadpreneurTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A7E8627C6B594FD78F37CA4 /* Pods-DadpreneurUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DadpreneurUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DadpreneurUITests/Pods-DadpreneurUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		27A5A2ED7F76C63D3ECB6CFA /* Pods-DadpreneurTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DadpreneurTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DadpreneurTests/Pods-DadpreneurTests.debug.xcconfig"; sourceTree = "<group>"; };
+		52E529991E8270E5001B1998 /* Dadpreneur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dadpreneur.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52E5299C1E8270E5001B1998 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52E5299E1E8270E5001B1998 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		52E529A11E8270E6001B1998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52E529A41E8270E6001B1998 /* Dadpreneur.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dadpreneur.xcdatamodel; sourceTree = "<group>"; };
+		52E529A61E8270E6001B1998 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52E529A91E8270E6001B1998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52E529AB1E8270E6001B1998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52E529B01E8270E6001B1998 /* DadpreneurTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DadpreneurTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52E529B41E8270E6001B1998 /* DadpreneurTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadpreneurTests.swift; sourceTree = "<group>"; };
+		52E529B61E8270E6001B1998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52E529BB1E8270E6001B1998 /* DadpreneurUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DadpreneurUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52E529BF1E8270E6001B1998 /* DadpreneurUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadpreneurUITests.swift; sourceTree = "<group>"; };
+		52E529C11E8270E6001B1998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52E529CD1E827D38001B1998 /* extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		6EB6C20F5D79DDD40B4A929A /* Pods-DadpreneurTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DadpreneurTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DadpreneurTests/Pods-DadpreneurTests.release.xcconfig"; sourceTree = "<group>"; };
+		79FF8C24B4ED5A9F441182F8 /* Pods-Dadpreneur.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dadpreneur.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dadpreneur/Pods-Dadpreneur.release.xcconfig"; sourceTree = "<group>"; };
+		9AA7EB9EAD7911B99B180805 /* Pods_DadpreneurUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DadpreneurUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD3C42F0D15CAB65F4115762 /* Pods_Dadpreneur.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dadpreneur.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D121F12DA727A477C42DF2DE /* Pods-DadpreneurUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DadpreneurUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DadpreneurUITests/Pods-DadpreneurUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52E529961E8270E5001B1998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EDD9A6C13967BA2CA850754 /* Pods_Dadpreneur.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E529AD1E8270E6001B1998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB0EC1E1E58BE865CC4FC8D /* Pods_DadpreneurTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E529B81E8270E6001B1998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA65904C06BAE6612B58E7E1 /* Pods_DadpreneurUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52E529901E8270E5001B1998 = {
+			isa = PBXGroup;
+			children = (
+				52E5299B1E8270E5001B1998 /* Dadpreneur */,
+				52E529B31E8270E6001B1998 /* DadpreneurTests */,
+				52E529BE1E8270E6001B1998 /* DadpreneurUITests */,
+				52E5299A1E8270E5001B1998 /* Products */,
+				8722E069AAFC7E0A9F321E1E /* Pods */,
+				81D86FD9692C507240020EBA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52E5299A1E8270E5001B1998 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52E529991E8270E5001B1998 /* Dadpreneur.app */,
+				52E529B01E8270E6001B1998 /* DadpreneurTests.xctest */,
+				52E529BB1E8270E6001B1998 /* DadpreneurUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52E5299B1E8270E5001B1998 /* Dadpreneur */ = {
+			isa = PBXGroup;
+			children = (
+				52E5299C1E8270E5001B1998 /* AppDelegate.swift */,
+				52E5299E1E8270E5001B1998 /* HomeVC.swift */,
+				52E529CD1E827D38001B1998 /* extension.swift */,
+				52E529A01E8270E6001B1998 /* Main.storyboard */,
+				52E529A61E8270E6001B1998 /* Assets.xcassets */,
+				52E529A81E8270E6001B1998 /* LaunchScreen.storyboard */,
+				52E529AB1E8270E6001B1998 /* Info.plist */,
+				52E529A31E8270E6001B1998 /* Dadpreneur.xcdatamodeld */,
+			);
+			path = Dadpreneur;
+			sourceTree = "<group>";
+		};
+		52E529B31E8270E6001B1998 /* DadpreneurTests */ = {
+			isa = PBXGroup;
+			children = (
+				52E529B41E8270E6001B1998 /* DadpreneurTests.swift */,
+				52E529B61E8270E6001B1998 /* Info.plist */,
+			);
+			path = DadpreneurTests;
+			sourceTree = "<group>";
+		};
+		52E529BE1E8270E6001B1998 /* DadpreneurUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52E529BF1E8270E6001B1998 /* DadpreneurUITests.swift */,
+				52E529C11E8270E6001B1998 /* Info.plist */,
+			);
+			path = DadpreneurUITests;
+			sourceTree = "<group>";
+		};
+		81D86FD9692C507240020EBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD3C42F0D15CAB65F4115762 /* Pods_Dadpreneur.framework */,
+				09EB3E79B98895BAFD884296 /* Pods_DadpreneurTests.framework */,
+				9AA7EB9EAD7911B99B180805 /* Pods_DadpreneurUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8722E069AAFC7E0A9F321E1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09AF9CE4282C7529B062DEE8 /* Pods-Dadpreneur.debug.xcconfig */,
+				79FF8C24B4ED5A9F441182F8 /* Pods-Dadpreneur.release.xcconfig */,
+				27A5A2ED7F76C63D3ECB6CFA /* Pods-DadpreneurTests.debug.xcconfig */,
+				6EB6C20F5D79DDD40B4A929A /* Pods-DadpreneurTests.release.xcconfig */,
+				0A7E8627C6B594FD78F37CA4 /* Pods-DadpreneurUITests.debug.xcconfig */,
+				D121F12DA727A477C42DF2DE /* Pods-DadpreneurUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52E529981E8270E5001B1998 /* Dadpreneur */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52E529C41E8270E6001B1998 /* Build configuration list for PBXNativeTarget "Dadpreneur" */;
+			buildPhases = (
+				760B38D8A098958076C5DD28 /* [CP] Check Pods Manifest.lock */,
+				52E529951E8270E5001B1998 /* Sources */,
+				52E529961E8270E5001B1998 /* Frameworks */,
+				52E529971E8270E5001B1998 /* Resources */,
+				EAE88F399D46B31F323745B1 /* [CP] Embed Pods Frameworks */,
+				C11372F40783EAAB4BF5F61E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dadpreneur;
+			productName = Dadpreneur;
+			productReference = 52E529991E8270E5001B1998 /* Dadpreneur.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52E529AF1E8270E6001B1998 /* DadpreneurTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52E529C71E8270E6001B1998 /* Build configuration list for PBXNativeTarget "DadpreneurTests" */;
+			buildPhases = (
+				DAF0DEDAD760396786EF3651 /* [CP] Check Pods Manifest.lock */,
+				52E529AC1E8270E6001B1998 /* Sources */,
+				52E529AD1E8270E6001B1998 /* Frameworks */,
+				52E529AE1E8270E6001B1998 /* Resources */,
+				05B021467800B9D6BA40DFF2 /* [CP] Embed Pods Frameworks */,
+				19DD7E1CA13CF8F35D0C6A2D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52E529B21E8270E6001B1998 /* PBXTargetDependency */,
+			);
+			name = DadpreneurTests;
+			productName = DadpreneurTests;
+			productReference = 52E529B01E8270E6001B1998 /* DadpreneurTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52E529BA1E8270E6001B1998 /* DadpreneurUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52E529CA1E8270E6001B1998 /* Build configuration list for PBXNativeTarget "DadpreneurUITests" */;
+			buildPhases = (
+				D852D4A15301936308E8B87A /* [CP] Check Pods Manifest.lock */,
+				52E529B71E8270E6001B1998 /* Sources */,
+				52E529B81E8270E6001B1998 /* Frameworks */,
+				52E529B91E8270E6001B1998 /* Resources */,
+				82FAF4417478D233199D394F /* [CP] Embed Pods Frameworks */,
+				5CFE6A5A0C8A9203A3BD4CC9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52E529BD1E8270E6001B1998 /* PBXTargetDependency */,
+			);
+			name = DadpreneurUITests;
+			productName = DadpreneurUITests;
+			productReference = 52E529BB1E8270E6001B1998 /* DadpreneurUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52E529911E8270E5001B1998 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Neeru Mehndiratta";
+				TargetAttributes = {
+					52E529981E8270E5001B1998 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7478JG67X5;
+						ProvisioningStyle = Automatic;
+					};
+					52E529AF1E8270E6001B1998 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7478JG67X5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 52E529981E8270E5001B1998;
+					};
+					52E529BA1E8270E6001B1998 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7478JG67X5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 52E529981E8270E5001B1998;
+					};
+				};
+			};
+			buildConfigurationList = 52E529941E8270E5001B1998 /* Build configuration list for PBXProject "Dadpreneur" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52E529901E8270E5001B1998;
+			productRefGroup = 52E5299A1E8270E5001B1998 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52E529981E8270E5001B1998 /* Dadpreneur */,
+				52E529AF1E8270E6001B1998 /* DadpreneurTests */,
+				52E529BA1E8270E6001B1998 /* DadpreneurUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52E529971E8270E5001B1998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E529AA1E8270E6001B1998 /* LaunchScreen.storyboard in Resources */,
+				52E529A71E8270E6001B1998 /* Assets.xcassets in Resources */,
+				52E529A21E8270E6001B1998 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E529AE1E8270E6001B1998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E529B91E8270E6001B1998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05B021467800B9D6BA40DFF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DadpreneurTests/Pods-DadpreneurTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19DD7E1CA13CF8F35D0C6A2D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DadpreneurTests/Pods-DadpreneurTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CFE6A5A0C8A9203A3BD4CC9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DadpreneurUITests/Pods-DadpreneurUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		760B38D8A098958076C5DD28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		82FAF4417478D233199D394F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DadpreneurUITests/Pods-DadpreneurUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C11372F40783EAAB4BF5F61E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dadpreneur/Pods-Dadpreneur-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D852D4A15301936308E8B87A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DAF0DEDAD760396786EF3651 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EAE88F399D46B31F323745B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dadpreneur/Pods-Dadpreneur-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52E529951E8270E5001B1998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E5299F1E8270E5001B1998 /* HomeVC.swift in Sources */,
+				52E529A51E8270E6001B1998 /* Dadpreneur.xcdatamodeld in Sources */,
+				52E5299D1E8270E5001B1998 /* AppDelegate.swift in Sources */,
+				52E529CE1E827D38001B1998 /* extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E529AC1E8270E6001B1998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E529B51E8270E6001B1998 /* DadpreneurTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E529B71E8270E6001B1998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E529C01E8270E6001B1998 /* DadpreneurUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52E529B21E8270E6001B1998 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52E529981E8270E5001B1998 /* Dadpreneur */;
+			targetProxy = 52E529B11E8270E6001B1998 /* PBXContainerItemProxy */;
+		};
+		52E529BD1E8270E6001B1998 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52E529981E8270E5001B1998 /* Dadpreneur */;
+			targetProxy = 52E529BC1E8270E6001B1998 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52E529A01E8270E6001B1998 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52E529A11E8270E6001B1998 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52E529A81E8270E6001B1998 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52E529A91E8270E6001B1998 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52E529C21E8270E6001B1998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52E529C31E8270E6001B1998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52E529C51E8270E6001B1998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09AF9CE4282C7529B062DEE8 /* Pods-Dadpreneur.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7478JG67X5;
+				INFOPLIST_FILE = Dadpreneur/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neeru.mehn.Dadpreneur;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		52E529C61E8270E6001B1998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79FF8C24B4ED5A9F441182F8 /* Pods-Dadpreneur.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7478JG67X5;
+				INFOPLIST_FILE = Dadpreneur/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neeru.mehn.Dadpreneur;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		52E529C81E8270E6001B1998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27A5A2ED7F76C63D3ECB6CFA /* Pods-DadpreneurTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7478JG67X5;
+				INFOPLIST_FILE = DadpreneurTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neeru.mehn.DadpreneurTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dadpreneur.app/Dadpreneur";
+			};
+			name = Debug;
+		};
+		52E529C91E8270E6001B1998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EB6C20F5D79DDD40B4A929A /* Pods-DadpreneurTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7478JG67X5;
+				INFOPLIST_FILE = DadpreneurTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neeru.mehn.DadpreneurTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dadpreneur.app/Dadpreneur";
+			};
+			name = Release;
+		};
+		52E529CB1E8270E6001B1998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A7E8627C6B594FD78F37CA4 /* Pods-DadpreneurUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7478JG67X5;
+				INFOPLIST_FILE = DadpreneurUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neeru.mehn.DadpreneurUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Dadpreneur;
+			};
+			name = Debug;
+		};
+		52E529CC1E8270E6001B1998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D121F12DA727A477C42DF2DE /* Pods-DadpreneurUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7478JG67X5;
+				INFOPLIST_FILE = DadpreneurUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neeru.mehn.DadpreneurUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Dadpreneur;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52E529941E8270E5001B1998 /* Build configuration list for PBXProject "Dadpreneur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E529C21E8270E6001B1998 /* Debug */,
+				52E529C31E8270E6001B1998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52E529C41E8270E6001B1998 /* Build configuration list for PBXNativeTarget "Dadpreneur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E529C51E8270E6001B1998 /* Debug */,
+				52E529C61E8270E6001B1998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52E529C71E8270E6001B1998 /* Build configuration list for PBXNativeTarget "DadpreneurTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E529C81E8270E6001B1998 /* Debug */,
+				52E529C91E8270E6001B1998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52E529CA1E8270E6001B1998 /* Build configuration list for PBXNativeTarget "DadpreneurUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E529CB1E8270E6001B1998 /* Debug */,
+				52E529CC1E8270E6001B1998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		52E529A31E8270E6001B1998 /* Dadpreneur.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				52E529A41E8270E6001B1998 /* Dadpreneur.xcdatamodel */,
+			);
+			currentVersion = 52E529A41E8270E6001B1998 /* Dadpreneur.xcdatamodel */;
+			path = Dadpreneur.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 52E529911E8270E5001B1998 /* Project object */;
+}

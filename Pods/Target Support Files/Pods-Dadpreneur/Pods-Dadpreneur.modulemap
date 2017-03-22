@@ -1,0 +1,6 @@
+framework module Pods_Dadpreneur {
+  umbrella header "Pods-Dadpreneur-umbrella.h"
+
+  export *
+  module * { export * }
+}
